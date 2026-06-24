@@ -1,0 +1,24 @@
+# Données
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Base DuckDB
+database/
+*.duckdb
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+
+# Mac
+.DS_Store
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
